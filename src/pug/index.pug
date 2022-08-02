@@ -1,0 +1,499 @@
+doctype transitional
+
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    style(type='text/css').
+
+      @media (min-width: 682px) {
+        .intro-cards-td__inner, .intro-cards-td__inner-separator {
+          display: inline-block !important; 
+        }
+      }
+
+      @media (min-width: 440px) {
+        .inner-td {
+          padding-right: 40px !important;
+          padding-left: 40px !important; 
+        }
+        .link {
+          font-size: 16px !important;
+          line-height: 24px !important;
+          font-weight: 700 !important;
+        }
+        .title--intro p {
+          font-size: 32px !important;
+          line-height: 40px !important;
+        }
+      }
+
+      body {
+        width: 100% !important;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        margin: 0;
+        padding: 0;
+        line-height: 100%;
+      }
+
+      [style*="Arial"] {
+        font-family: arial, 'Open Sans', sans-serif !important;
+        }
+
+      img {
+        outline: none;
+        text-decoration: none;
+        border:none;
+        -ms-interpolation-mode: bicubic;
+        max-width: 100% !important;
+        margin: 0;
+        padding: 0;
+        display: block;
+      }
+
+      .main-table--680 {
+        max-width: 680px
+      }
+
+      .inner-td {
+        padding-right: 16px;
+        padding-left: 16px;
+      }
+      
+      table td {
+        border-collapse: collapse;
+        font-family: arial, 'Open Sans', sans-serif;
+      }
+      
+      table {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        width: 100%;
+      }
+
+      a {
+        text-decoration: none;
+        color: #2C2C2C;
+      }
+
+      p {
+        margin: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+      ul {
+        padding: 0 0 0 20px;
+        margin: 0;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .link {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+        color: #2192EF;
+        white-space: nowrap;
+      }
+
+      .header-tb td {
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+      
+      .title p {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #2C2C2C;
+      }
+
+      .title--intro {
+        padding-top: 15px;
+      }
+
+      .title--intro p {
+        font-size: 28px;
+        line-height: 34px;
+      }
+
+      .into-tb p {
+        padding-bottom: 12px;
+      }
+
+      .intro-cards-td {
+        width: auto;
+      }
+
+      .intro-cards-td__inner {
+        width: 234px;
+        padding: 24px;
+        display: block;
+        border-radius: 8px;
+      }
+
+      .intro-cards-td__inner-separator {
+        display: block;
+      }
+
+      .intro-cards-td__inner:first-child {
+        border: 1px solid #E8E8E8;
+      }
+
+      .intro-cards-td__inner:last-child {
+        border: 2px solid #02A974;
+      }
+
+      .intro-card-td img, span {
+        display: inline;
+        vertical-align: middle;
+      }
+
+      .intro-card-td span {
+        padding-left: 12px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+      }
+
+      .btn a {
+        border-radius: 4px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        cursor: pointer;
+        display: inline-block;
+      }
+
+      .btn--intro-td a {
+        color: #ffffff;
+        display: block;
+        padding-top: 12px;
+        padding-right: 40px;
+        padding-bottom: 12px;
+        padding-left: 40px;
+        text-align: center;
+      }
+
+      .btn--intro-td {
+        text-align: center;
+        padding: 32px 0 48px;
+      }
+
+      .btn--intro-td .btn__inner {
+        color: #ffffff;
+        background-color: #FF9000;
+        display: inline-block;
+        border-radius: 4px;
+      }
+
+      .intro-contact-us-td  {
+        color: #6B6B6B;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 45px;
+      }
+
+      .intro-contact-us-td a {
+        color: #2192EF;
+        text-decoration: underline;
+      }
+
+      .support-tb {
+        text-align: center;
+      }
+
+      .support-td {
+        border: 1px solid #E7E7E7;
+        border-radius: 8px;
+        padding: 24px;
+        display: inline-block;
+      }
+
+      .support-td .btn__inner {
+        border: 2px solid #FF9000;
+        border-radius: 4px;
+        color: #2C2C2C;
+        display: inline-block;
+      }
+
+      .support-tb img {
+        display: inline-block;
+      }
+
+      .title--support {
+        padding: 16px 16px 28px;
+      }
+
+      .btn--support a {
+        display: block;
+        padding: 12px 40px;
+        text-align: center;
+      }
+
+      .enterprise-plan-td .title{
+        padding: 24px 0 16px
+      }
+
+      .footer-td {
+        text-align: center;
+        background-color: #F9F9F9;
+        border-radius: 12px;
+        padding: 40px 26px;
+      }
+      
+      .footer-td__inner {
+        padding-bottom: 32px;
+      }
+
+      .footer-td__links-wrapper td {
+        display: inline-block;
+      }
+
+      .footer-td__links-wrapper--downloads td {
+        padding-bottom: 20px;
+      }
+
+      .footer-td__links-wrapper--downloads td:not(:last-child) {
+        padding-right: 16px;
+      }
+
+      .footer-td__links-wrapper--connects td {
+        padding: 6px;
+      }
+
+      .footer-td__links-wrapper--socials td {
+        padding: 0 8px;
+      }
+
+      .footer-td__links-wrapper--helps td {
+        display: inline-block;
+        padding: 8px 8px;
+      }
+
+      .footer-td__links-wrapper--copyright p {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #6B6B6B;
+        padding-bottom: 4px;
+      }
+        
+      .footer-td--receive p {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #6B6B6B;
+        text-align: center;
+        padding: 10px 0;
+      }
+
+      .footer-td--receive a {
+        text-decoration: underline;
+        color: #6B6B6B;
+      }
+
+  body
+    div(style='font-size: 0px; font-color: #ffffff; opacity: 0; visibility: hidden; width: 0; height: 0; display: none;') 
+      | Test
+    table(cellpadding='0' cellspacing='0' width='100%' bgcolor='#ededed')
+      tr
+        td
+          table(cellpadding='0' cellspacing='0' align='center').main-table.main-table--680
+            tr 
+              td(bgcolor='#ffffff').inner-td
+                table(cellpadding='0' cellspacing='0' align='center').header-tb
+                  tr 
+                    td(align='left').logo
+                      a(href="https://www.google.com")
+                        img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2020/pdffiller-dark-mode/pdf-filler-logo@2x.png", alt="logo" width='128')
+                    td(align='right')
+                      a(href="https://www.google.com").link Go to My Organization →
+
+            tr 
+              td(bgcolor='#ffffff').inner-td
+                table(cellpadding='0' cellspacing='0' align='center').into-tb
+                  tr 
+                    td.title.title--intro 
+                      p Your billing, simplified.
+                  tr 
+                    td 
+                      p We have an important billing update for you. 
+                      p We wanted to make things easier for our customers, so we combined subscription and teammates' charges in one billing cycle.
+                      p As a thank you for being our loyal customer, we’ll continue providing the best service to your current extra teammates for free*.
+                  tr 
+                    td(style='padding-top: 10px;')
+                      table(cellpadding='0' cellspacing='0' align='center').intro-cards-td 
+                        tr
+                          td.intro-cards-td__inner
+                            table(cellpadding='0' cellspacing='0' align='center').intro-card-td 
+                              tr 
+                                td(style='padding-bottom: 14px;')
+                                  img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2022/pdffiller-migrated-users/red-icon.png", alt="Before" width='40')
+                                  span Before 
+                              tr 
+                                td
+                                  ul 
+                                    li(style='padding-bottom: 12px;') You had multiple billing cycles
+                                    li You paid for your subscription and for your extra teammates separately
+                          td(width='28' height='20px').intro-cards-td__inner-separator
+                          td.intro-cards-td__inner
+                            table(cellpadding='0' cellspacing='0' align='center').intro-card-td 
+                              tr 
+                                td(style='padding-bottom: 14px;')
+                                  img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2022/pdffiller-migrated-users/green-icon.png", alt="Now" width='40')
+                                  span Now 
+                              tr 
+                                td
+                                  ul 
+                                    li(style='padding-bottom: 12px;') You’ll have one billing cycle
+                                    li You’ll only pay for your subscription, no charge for your current extra teammates
+                  tr 
+                    td   
+                      table(cellpadding='0' cellspacing='0' align='center').intro-actions-td
+                        tr 
+                          td.btn.btn--intro-td
+                            table(cellpadding='0' cellspacing='0' align='center')
+                             tr
+                              td.btn__inner
+                                a(href="https://www.google.com") Review changes in My Organization
+                        tr 
+                          td.intro-contact-us-td  
+                            p *Changing or canceling your subscription will freeze the accounts of your extra teammates. To restore their accounts, please 
+                              a(href="https://www.google.com")  contact us.
+            tr 
+              td(bgcolor='#ffffff' style="padding-bottom: 60px;").inner-td
+                table(cellpadding='0' cellspacing='0' align='center').support-tb
+                  tr 
+                    td.support-td 
+                      table(cellpadding='0' cellspacing='0' align='center')
+                        tr 
+                          td 
+                            img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2022/pdffiller-migrated-users/support-icon.png", alt="support-icon" width='60')
+                        tr  
+                          td.title.title--support
+                            p If you have any questions, please contact our support team.
+                        tr
+                          td.btn.btn--support
+                            table(cellpadding='0' cellspacing='0' align='center')
+                              tr 
+                                td.btn__inner
+                                  a(href="https://www.google.com") Contact Support
+            tr 
+              td(bgcolor='#ffffff' style="padding-bottom: 60px;").inner-td
+                table(cellpadding='0' cellspacing='0' align='center').enterprise-plan-tb
+                  tr 
+                    td.enterprise-plan-td
+                      table(cellpadding='0' cellspacing='0' align='center')
+                        tr 
+                          td 
+                            img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2022/pdffiller-digest-may/enterprise-pic.png", alt="enterprise-pic" width='600')
+                        tr 
+                          td(align="left").title
+                            p pdfFiller for Enterprise: Transform how your organization works with documents
+                        tr 
+                          td(align="left")
+                             a(href="https://www.google.com").link Select a pdfFiller for Enterprise plan →
+            tr 
+              td(bgcolor='#ffffff' style="padding-bottom: 60px;").inner-td
+                table(cellpadding='0' cellspacing='0' align='center').footer-tb
+                  tr 
+                    td.footer-td
+                      table(cellpadding='0' cellspacing='0' align='center')
+                        tr
+                          td.footer-td__inner
+                            p – Best regards, <br> Sarah from the pdfFiller Team
+                        tr
+                          td(style='padding-bottom: 12px;').footer-td__inner 
+                            table(cellpadding='0' cellspacing='0' align='center')
+                              tr.footer-td__links-wrapper.footer-td__links-wrapper--downloads
+                                td
+                                  a(href="https://www.google.com")
+                                    img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2022/pdffiller-flow-templates/appstore-lg.png", alt="Apple Store" width='108') 
+                                td
+                                  a(href="https://www.google.com")
+                                    img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2022/pdffiller-flow-templates/googleplay-lg.png", alt="Google Play" width='111') 
+                                td
+                                  a(href="https://www.google.com")
+                                    img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2022/pdffiller-flow-templates/windows-lg.png", alt="pdfFiller for Wsndows" width='150') 
+                                td
+                                  a(href="https://www.google.com")
+                                    img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2022/pdffiller-flow-templates/mac-lg.png", alt="pdfFiller for Mac" width='121') 
+                        tr 
+                          td(style='padding-bottom: 24px;').footer-td__inner
+                            table(cellpadding='0' cellspacing='0' align='center')
+                              tr
+                                td(style='padding-bottom: 9px;')
+                                  p Connect pdfFiller with the tools and services you already use
+                              tr.footer-td__links-wrapper.footer-td__links-wrapper--connects
+                                td
+                                  a(href="https://www.google.com")
+                                    img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2021/pdffiller-new-footer-promo-emails/gmail.png", alt="Gmail" width='48') 
+                                td
+                                  a(href="https://www.google.com")
+                                    img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2021/pdffiller-new-footer-promo-emails/docs.png", alt="Gogle documents" width='48') 
+                                td
+                                  a(href="https://www.google.com")
+                                    img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2021/pdffiller-new-footer-promo-emails/drive.png", alt="Gogle drive" width='48') 
+                                td
+                                  a(href="https://www.google.com")
+                                    img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2021/pdffiller-new-footer-promo-emails/sheets.png", alt="Marketplace sheets" width='48') 
+                                td
+                                  a(href="https://www.google.com")
+                                    img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2021/pdffiller-new-footer-promo-emails/forms.png", alt="Marketplace sheets" width='48')
+                        tr 
+                          td(style='padding-bottom: 26px;').footer-td__inner 
+                            table(cellpadding='0' cellspacing='0' align='center')
+                              tr.footer-td__links-wrapper.footer-td__links-wrapper--helps
+                                td
+                                  a(href="https://www.google.com") Forgot Password?
+                                td
+                                  a(href="https://www.google.com") Contact Support
+                                td
+                                  a(href="https://www.google.com") Terms of Services
+                                td
+                                  a(href="https://www.google.com") Privacy Policy                        
+                        tr 
+                          td.footer-td__inner 
+                            table(cellpadding='0' cellspacing='0' align='center')
+                              tr.footer-td__links-wrapper.footer-td__links-wrapper--socials
+                                td
+                                  a(href="https://www.google.com")
+                                    img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2022/signnow-welcome-blog-subs/icon-facebook.png", alt="Facebook" width='32')
+                                td
+                                  a(href="https://www.google.com")
+                                    img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2022/signnow-welcome-blog-subs/icon-linkedin.png", alt="Linkedin" width='32')
+                                td
+                                  a(href="https://www.google.com")
+                                    img(src="https://static.pdffiller.com/mail-templates/img/marketing/mails2022/signnow-welcome-blog-subs/icon-youtube.png", alt="Youtube" width='32')
+                        tr 
+                          td(style='padding-bottom: 0;').footer-td__inner 
+                            table(cellpadding='0' cellspacing='0' align='center')
+                              tr.footer-td__links-wrapper.footer-td__links-wrapper--copyright
+                                td
+                                  p 2022 © airSlate, Inc. All rights reserved.
+                                  p 17 Station Street, 3rd Floor, Brookline, MA 02445
+                  tr 
+                    td.footer-td--receive
+                      p If you no longer wish to receive emails from pdfFiller, please click 
+                        a(href="https://www.google.com") here.
